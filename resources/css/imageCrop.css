@@ -1,0 +1,118 @@
+a {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+.result-datauri {
+    width: 300px;
+    height: 100px;
+    font-size: 11px;
+    line-height: 15px;
+    padding: 5px;
+    border: 1px solid black;
+    clear: both;
+    display: block;
+    margin: 20px auto;
+}
+
+.fileinput-cover-button img{
+    opacity: 1;
+}
+.profile_pic_style{
+    border: 6px solid whitesmoke;
+    bottom: 1px; 
+    left: 1px;
+}
+
+
+/* Fixes for IE < 8 */
+@media screen\9 {
+    .fileinput-button input {
+        filter: alpha(opacity=0);
+        font-size: 100%;
+        height: 100%;
+    }
+}
+.btn_hover{
+    opacity: 0;
+}
+.btn_hover:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.cover-border{
+    border: 1px solid whitesmoke;
+}
+
+.profile_mrg{
+    /*margin: 0 15px;*/
+}
+
+.profile_cover_upload_img{
+    border: 1px solid whitesmoke; 
+    position: absolute; 
+    top: 8%;  
+    z-index: 1004; 
+    left: 3%; 
+    padding: 0.5%;
+    opacity: 0.8;
+}
+
+.profile_cover_upload_img span{
+    color: #333; 
+    background-color: transparent; 
+    padding: 5px; 
+    font-weight: bold;
+}
+
+
+.timeline_profile_name, .timeline_profile_name:hover, .timeline_profile_name:focus, .timeline_profile_name:active{
+    position: absolute; 
+    bottom: 8px; 
+    left: 222px; 
+    color: #fff;  
+    font-weight: bold!important; 
+    text-shadow: 5px 5px 10px #000; 
+    z-index: 1001;
+    font-size: 16px!important; 
+    background-color: transparent!important;
+    text-decoration: none;
+}
+
+
+/* ------------------------profile picture -----------------------------*/
+/* After setup 1st time, profile picture */
+.profile_picture input, .profile_picture img{
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.timeline_profile_picture_custom input{
+    width: 98%;
+    border: 1px solid #703684;
+}
+.timeline_profile_picture_custom img{
+    /*border: 2px solid lightgray;*/
+    border-radius: 3px 3px 3px 3px ;
+    background-color: #fff;
+}
+
+
+/* ------------------------ cover photo -----------------------------*/
+.fileinput-cover-button input {
+    cursor: pointer;
+    direction: ltr;
+    height: 33px;
+    left: 3.1%;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    top: 22px;
+    width: 21.8em!important;
+}
+
+
+
+
